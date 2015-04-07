@@ -1,8 +1,8 @@
-# Jank-free onscroll&nbsp; [![Build Status](https://travis-ci.org/acusti/jank-free-onscroll.svg?branch=master)](https://travis-ci.org/acusti/jank-free-onscroll)
+### *Renamed.* This package is now named [“onscrolling”][onscrolling-github], which is also available on [npm][onscrolling-npm] (and Bower and the like).
+
+# Jank-free onscroll
 
 A better, smoother, more performant onscroll event interface based on the concepts from [this html5rocks tutorial][html5rocks-tutorial]. It uses `requestAnimationFrame` plus debouncing for performance and mobile-compatibility (thanks to the `touchmove` event), giving you a fighting chance to achieve the hallowed 60fps of lore with your scroll-listening UI.
-
-[![NPM](https://nodei.co/npm/jank-free-onscroll.png?compact=true)](https://nodei.co/npm/jank-free-onscroll/)
 
 ## Usage
 
@@ -56,6 +56,8 @@ Tests use Mocha + Should.js + Sinon and must be run in a browser. Just open `tes
 
 - [ ] Add optional param to specify an object other than `window` to monitor for scroll events
 
+[onscrolling-github]: https://github.com/acusti/onscrolling
+[onscrolling-npm]: https://www.npmjs.com/package/onscrolling
 [html5rocks-tutorial]: http://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events
 [raf-caniuse]: http://caniuse.com/#feat=requestanimationframe
 [raf-polyfill]: https://gist.github.com/paulirish/1579671
